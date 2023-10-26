@@ -1,0 +1,53 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usetheme{Warsaw}
+\usecolortheme{crane}
+
+\title{Introduction Presentation}
+\author{Oluwafunmibi Omotayo Fasanya}
+\date{\today}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\frame{\titlepage}
+
+\begin{frame}{Introduction}
+  \begin{itemize}
+    \item Birthday: 18th June
+    \item Hometown: Osun State, Nigeria
+    \item Program: MSc Statistics
+    \item Expected Graduation: MM/2025
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Favorite Animal}
+    \includegraphics[width=.5\textwidth]{bulldog.jpg}
+\end{frame}
+
+\begin{frame}{Favorite Plot}
+  
+  
+<<plottile, message=FALSE, warning=FALSE, echo=FALSE>>=
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+
+penguins %>% ggplot(aes(x=bill_length_mm, y=bill_depth_mm, size=island)) +
+      geom_point(alpha=0.25) +
+      geom_smooth(method="loess") +
+      guides(size = guide_legend(title='Island', override.aes=list(linetype=NA, fill='transparent')))+
+      xlab("Length of the Bill") +
+      ylab("Depth of the Bill") +
+      ggtitle("Scatter plot of the Length of bill and depth separated by island")
+@
+    
+\end{frame}
+
+\begin{frame}{CV}
+  \begin{itemize}
+    \item View my CV: \url{https://www.overleaf.com/project/6539d36e4b0a82623976ef59/detached}
+  \end{itemize}
+\end{frame}
+
+\end{document}
