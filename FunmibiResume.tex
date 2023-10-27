@@ -1,0 +1,115 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large OLUWAFUNMIBI OMOTAYO FASANYA}\\[2pt] % Name
+Lincoln, Nebraska | \href{mailto:example@example.com}{funmibiomotayo@gmail.com} | (402) 417-2896 | \href{https://www.linkedin.com/in/funmibiomotayo/}{linkedin.com/in/funmibiomotayo} 
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{University of Nebraska}, Lincoln, Nebraska \hfill Enrolled: August 2023 | Expected: May 2025\\ % University name and location
+Masters of Science, Statistics \hfill Overall GPA: 4.00/4.00 \\ % Degree and GPA
+Threads: Data Analytics \hfill Credit standing: Honors % Additional info
+
+\noindent
+\textbf{Federal University of Technology Akure}, Ondo, Nigeria \hfill Enrolled: January 2015 | Expected: December 2019\\ % University name and location
+Bachelor of Technology, Statistics \hfill Overall GPA: 4.51/5.00 \\ % Degree and GPA
+Threads: Biostatistics \hfill Credit standing: First Class Honors % Additional info
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+\item \textbf{Programming:} R(ggplot2, dplyr, tidyr, RMarkdown, Quarto)***, SAS(Studio)**, Python* MYSQL* % Programming skills
+\item \textbf{Software:} R, SAS, Gretl, SPSS, EViews, Stata, and Microsoft Excel. % Software skills
+\end{itemize}
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{University of Nebraska} \hfill Lincoln, Nebraska \\ % Company name and location
+\textit{Graduate Teaching Assistant } \hfill August 2023  - Ongoing % Position and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+\item Teaching Undergraduate students from various disciplines introductory statistics.
+\item Assisting my mentor in grading homework, tests, and exams.
+\item Providing assistance to students in aspects related to statistics and statistical analysis.% Job responsibilities and achievements
+\end{itemize}
+
+\noindent
+\textbf{Fiverr} \hfill Remote \\ % Company name and location
+\textit{Freelance Research/Data Analyst} \hfill December 2019  - July 2023 % Position and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+\item I provided extensive support for survey design, questionnaire validation, data collection, and analytical model design.
+\item My expertise encompasses the creation of robust data collection systems, ensuring data quality and reliability, as well as statistical analysis and interpretation. I have collaborated with over 200 clients worldwide. % Job responsibilities and achievements
+\end{itemize}
+
+\noindent
+\textbf{Fredacom Technologies} \hfill Remote \\ % Company name and location
+\textit{Research/Data Analyst} \hfill August 2021  - July 2023 % Position and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+\item Collaborated with multidisciplinary teams to develop research methodologies and survey data collection strategies in Africa.
+\item Provided technical expertise by overseeing research activities, coordinating data analysts for efficient model generation, and delivering data integrity training to collectors and end-users % Job responsibilities and achievements
+\end{itemize}
+
+\noindent
+\textbf{Longbridge Technologies} \hfill Remote \\ % Company name and location
+\textit{Research Intern} \hfill June 2018  - December 2018 % Position and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+\item Assisted in developing predictive models used to increase and optimize customer experiences, revenue generation, ad targeting, and other business outcomes on the company's e-commerce website.
+    \item Worked with software such as R and Java to create the model and also to design a user interface. % Job responsibilities and achievements
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Assessment of the readiness of restorations manufactured by CAD/CAM in terms of marginal fit: Do We
+Need a Master Cast? } \hfill Olomouc, Czech Republic\\ % Project or organization name and location
+\textit{Data Analyst, Volunteer} \hfill March 2022 – December 2022 % Position and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+    \item Created a model for a randomized clinical trial comparing two different types of manufacturing of zirconia crowns with other researchers at the Institute of Dentistry and Oral Sciences, Palacky University Olomouc, the Czech Republic. % Responsibilities and achievements
+\end{itemize}
+
+% Projects Section
+\section*{PROJECTS/RESEARCH}
+\noindent
+\textbf{Predicting Covid-19 Vaccination Intention in South West, Nigeria using The Protection Motivation Theory: A Structural Equation Modelling (SEMS) Approach } \hfill \\ % Project name and location
+\textit{Project Link:} \url{.....} \hfill 2022 % Project link and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+    \item This study used structural equation modeling to identify major factors influencing COVID-19 vaccination intention and behavior among old and young in South West Nigeria. Characteristics such as perceived self-efficacy, perceived severity of COVID-19, response efficacy, susceptibility to the vaccine, and response cost, according to the findings, greatly influenced vaccination intention and behavior.% Project description and contributions
+\end{itemize}
+% Additional Project
+\noindent
+\textbf{A Multivariate Analysis Approach to Modelling the Relation between the Spread of COVID-19 in Africa.}  % Project name and location
+\textit{Project Link:} \url{.....} \hfill 2022 % Project link and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+    \item This study classified COVID-19 spread rates in 13 related African nations using correlation and principal component analysis. Hierarchical regression was also used to calculate the contribution of new cases to the proportion of deaths that might be explained. % Project description and contributions
+\end{itemize}
+\noindent
+\textbf{ROC Method for Identifying the Optimal Threshold With an Application to Email Classification } \hfill 2019\\ % Project name and location
+\textit{Project Link:} \url{https://onlinelibrary.wiley.com/doi/10.1002/9781119792642.ch16} \hfill Published in Febuary 2022 % Project link and duration
+\begin{itemize}[topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+    \item This research investigates the impact of email spam filtering algorithms, emphasizing the superiority of the Receiver Operating Curve - Area under the Curve (ROC-AUC) over accuracy metrics for evaluating performance, using extensive experiments conducted on spam email datasets. % Project description and contributions
+\end{itemize}
+
+% End document
+\end{document}
