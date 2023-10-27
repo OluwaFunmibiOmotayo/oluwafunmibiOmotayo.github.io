@@ -4,5 +4,5 @@ Here I'll be introducing myself and provide some basic biographical information 
 
 I have a slides where I'll provide the following <br/>
 
-1.  [This is my Resume] (Oluwafunmibi_CV),<br/>
+1.  [This is my Resume] (Oluwafunmibi_Resume.pdf),<br/>
 
