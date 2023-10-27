@@ -5,6 +5,8 @@ Here I'll introduce myself and provide some basic biographical information such 
 I have a slide where I'll provide the following <br/>
 
 
-[Slides in Beamer](AboutMeSlides.Rnw)
+[Slides in Beamer](AboutMeSlides.Rnw)<br/>
+[Slides in Html](Aboutmeslideshtml.html)<br/>
 [This is my Resume](Oluwafunmibi_Resume.pdf)
+
 
