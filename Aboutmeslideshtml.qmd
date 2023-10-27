@@ -1,0 +1,63 @@
+---
+title: "Introduction Presentation"
+author: "Oluwafunmibi Omotayo Fasanya"
+format: revealjs
+---
+
+```{=html}
+<style>
+  /* Custom CSS for styling */
+  .reveal {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .reveal h1, .reveal h2 {
+    color: #1E90FF;
+  }
+
+  .reveal p {
+    font-size: 24px;
+  }
+
+  .reveal img {
+    max-width: 80%;
+    border: 5px solid #1E90FF;
+    border-radius: 10px;
+  }
+</style>
+
+```
+
+## Introduction
+-   Birthday: 18th June
+-   Hometown: Osun State, Nigeria
+-   Program: MSc Statistics
+-   Expected Graduation: MM/2025
+
+## Favorite Animal
+
+![My Favorite Animal](bulldog.jpg)
+
+## Favorite Plot
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+
+penguins %>% ggplot(aes(x=bill_length_mm, y=bill_depth_mm, size=island)) +
+  geom_point(alpha=0.25) +
+  geom_smooth(method="loess") +
+  guides(size = guide_legend(title='Island', override.aes=list(linetype=NA, fill='transparent')))+
+  xlab("Length of the Bill") +
+  ylab("Depth of the Bill") +
+  ggtitle("Scatter plot of the Length of bill and depth separated by island")
+```
+
+## CV
+
+Click below to see my resume
+
+[My Resume](https://oluwafunmibiomotayo.github.io/Oluwafunmibi_Resume.pdf)
+
